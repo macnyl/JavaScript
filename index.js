@@ -24,25 +24,24 @@ javaScript = true;
 console.log('JavaScript:>> ', javaScript);
  
 let num = 1;
-num = num + 11;
-num = num - 11;
-num = num * 11;
-num = num / 11;
-num = num + 1;
-num = num - 1;
-console.log('num = num += 11 :>> ', num = num += 11);
-console.log('num = num -= 11 :>> ', num = num -= 11);
-console.log('num = num *= 11 :>> ', num = num *= 11);
-console.log('num = num /= 11 :>> ', num = num / 11);
-console.log('num = num ++ 11 :>> ', num =++ num + 11); 
-console.log('num = num -- 11 :>> ', num =-- num - 11);
+num += 11;
+num -= 11;
+num *= 11;
+num /= 11;
+num += 1;
+num -= 1;
 
-// const number = prompt("Enter your number");
+// const number = prompt("Enter your number"); привеление типов
 // alert(number * number);
 
-// const number = prompt("Enter your number");
+// const number = prompt("Enter your number")
+// if(String('number')){
+//     alert(number * number)
+// }
+
+// const number = prompt("Enter your number"); ошибка
 // const number2 = prompt("Enter your another number");
-// alert(number * number2 / 2);
+// alert(number + number2 / 2);
 
 // const number = prompt("Enter minutes");
 // const text = "Answer: ";
@@ -54,8 +53,8 @@ console.log('num = num -- 11 :>> ', num =-- num - 11);
 // const symbol = "!";
 // alert(greeting + userName + symbol);
 
-// const theRightNumber = prompt("Enter the right number:");
-// if (theRightNumber == 10){
+// const theRightNumber = prompt("Enter the right number:"); 
+// if (theRightNumber === '10'){
 //     alert("Right!");
 // } else {
 //  alert("Wrong!");
@@ -67,19 +66,12 @@ console.log('num = num -- 11 :>> ', num =-- num - 11);
 //   value = Number(prompt("Enter value:"));
 // } while ((value !== newValue))
 // alert('You are lucky! \u{1F600}');
-let i = 11;
-let result1 = 0;
-do {                                    
-  alert('i :>> ', i);
-  result1 += i;
-  i++;
-} while (i <= 10)
-alert('result :>> ', result1);
 
-// const number = prompt("Enter purchase amount:");
-// const discount = 3 % (number);
-// const textDiscount = "Your discounted amount: ";
-// alert(textDiscount + (number - discount));
+// let i = 10; 
+// while (i >= 0){
+//     console.log('i :>> ', i);
+//     i--
+// }
 
 // const valueDiscount = prompt('Enter the amount:')
 // if(valueDiscount >500 && valueDiscount <=800){
@@ -99,11 +91,9 @@ alert('result :>> ', result1);
 // score--;
 // }
 
-// for (let i = 25; i >= 0; i--){
-//     if (i % 2 == 1){
+// for (let i = 25; i >= 0; i--){ 
 //         console.log('i :>> ', i);
 //     }
-// }
 
 // const print = 10;
 // let score = 50;
